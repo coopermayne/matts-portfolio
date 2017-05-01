@@ -2,7 +2,7 @@
 title: contact
 ---
 
-<form action="https://formspree.io/{{ site.email }}" method="POST">
+<form action="https://formspree.io/{{ site.data.settings.email }}" method="POST">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
@@ -22,32 +22,32 @@ title: contact
 </form>
 <ul class="icons">
 
-	{% if site.twitter_url %}
-				<li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+	{% if site.data.settings.social_profiles.twitter %}
+				<li><a href="{{ site.data.settings.social_profiles.twitter.url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
-				{% if site.googleplus_url %}
-				<li><a href="{{ site.googleplus_url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+				{% if site.data.settings.social_profiles.googleplus %}
+				<li><a href="{{ site.data.settings.social_profiles.googleplus.url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
 				{% endif %}
-				{% if site.facebook_url %}
-				<li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				{% if site.data.settings.social_profiles.facebook %}
+				<li><a href="{{ site.data.settings.social_profiles.facebook.url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
 				{% endif %}
-				{% if site.instagram_url %}
-				<li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% if site.data.settings.social_profiles.instagram %}
+				<li><a href="{{ site.data.settings.social_profiles.instagram.url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 				{% endif %}
-				{% if site.pinterest_url %}
-				<li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+				{% if site.data.settings.social_profiles.pinterest %}
+				<li><a href="{{ site.data.settings.social_profiles.pinterest.url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
 				{% endif %}
-				{% if site.gitlab_url %}
-				<li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				{% if site.data.settings.social_profiles.gitlab %}
+				<li><a href="{{ site.data.settings.social_profiles.gitlab.url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
 				{% endif %}
-				{% if site.github_url %}
-				<li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% if site.data.settings.social_profiles.github %}
+				<li><a href="{{ site.data.settings.social_profiles.github.url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 				{% endif %}
-				{% if site.slack_url %}
-				<li><a href="{{ site.slack_url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% if site.data.settings.social_profiles.slack %}
+				<li><a href="{{ site.data.settings.social_profiles.slack.url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
 				{% endif %}
-				{% if site.linkedin_url %}
-				<li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% if site.data.settings.social_profiles.linkedin %}
+				<li><a href="{{ site.data.settings.social_profiles.linkedin.url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
 
 </ul>

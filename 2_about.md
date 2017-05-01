@@ -1,5 +1,14 @@
 ---
 title: about
-image: pic03.jpg
+image: https://www.datocms-assets.com/2075/1493657885-download-jpeg?w=600&h=400&fm=jpg&fit=facearea&facepad=1.5
 ---
-my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. my own about text. 
+
+I'm a person **who does things.** Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. 
+
+### you can do all kinds of formats
+
+* lists
+* and 
+* lists
+
+Sapiente et earum facilis autem. Dolorem officiis deleniti quisquam nam tenetur quo et nisi. Quasi ut commodi cum rerum enim.
