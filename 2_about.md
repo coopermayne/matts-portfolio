@@ -1,6 +1,6 @@
 ---
 title: about
-image: https://www.datocms-assets.com/2075/1493657885-download-jpeg?w=600&h=400&fm=jpg&fit=facearea&facepad=1.5
+image: https://www.datocms-assets.com/2075/1493671862-image-jpeg?w=600&h=400&fm=jpg&fit=facearea&facepad=2
 ---
 
 I'm a person **who does things.** Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. I'm a person who does things. Hire me to do those things. 

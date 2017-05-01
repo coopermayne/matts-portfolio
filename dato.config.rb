@@ -20,7 +20,7 @@ create_data_file "_data/settings.yml", :yaml,
 create_post '2_about.md' do
   frontmatter :yaml, {
     title: dato.about.title,
-    image: dato.about.image.url(w: 600, h: 400, fm: :jpg, fit: :facearea, facepad: 1.5)
+    image: dato.about.image.url(w: 600, h: 400, fm: :jpg, fit: :facearea, facepad: 2)
   }
 
   content dato.about.content
