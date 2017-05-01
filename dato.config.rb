@@ -27,4 +27,4 @@ create_post '2_about.md' do
 end
 
 create_data_file "_data/portfolio.yml", :yaml,
-  dato.portfolio_items.map{|item| { url: item.image.url, title: item.title }}
+  dato.portfolio_items.map{|item| { title: item.title, images: item.images.map(&:url) }}

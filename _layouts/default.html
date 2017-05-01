@@ -24,8 +24,13 @@
 </p>
 
 {% if page.title == 'portfolio' %}
-{% for image in site.data.portfolio  %}
-	<span class="image main"><img src="{{ image.url }}" alt="" /></span>
+{% for item in site.data.portfolio  %}
+
+{% if forloop.index != 1 %} <hr> {% endif %}
+  <h3>{{item.title}}</h3>
+  {% for image in item.images  %}
+    <span class="image main"><img src="{{ image }}" alt="" /></span>
+  {% endfor %}
 {% endfor %}
 {% endif %}
 

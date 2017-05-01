@@ -1,4 +1,9 @@
-- url: https://www.datocms-assets.com/2075/1493661029-600x400-jpg
-  title: Category one
-- url: https://www.datocms-assets.com/2075/1493661043-601x401-jpg
-  title: Category 2
+- title: Nature
+  images:
+  - https://www.datocms-assets.com/2075/1493668311-nature-jpg
+  - https://www.datocms-assets.com/2075/1493668312-nature2-jpg
+  - https://www.datocms-assets.com/2075/1493668312-nature3-jpg
+- title: Train Tracks
+  images:
+  - https://www.datocms-assets.com/2075/1493668557-train-jpg
+  - https://www.datocms-assets.com/2075/1493668557-train2-jpg
