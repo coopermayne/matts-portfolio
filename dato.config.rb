@@ -12,7 +12,9 @@ create_data_file "_data/settings.yml", :yaml,
   favicon_meta_tags: dato.site.favicon_meta_tags,
   email: dato.home.email,
   phone_number: dato.home.phone_number,
-  address: dato.home.address
+  address: dato.home.address,
+  header: dato.home.header,
+  subheader: dato.home.subheader
 
 
 create_post '2_about.md' do
