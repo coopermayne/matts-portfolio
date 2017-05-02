@@ -1,17 +1,15 @@
 title: Matt Stevens - Profile
 description: Qui voluptatem illo a veritatis. Est est consequatur similique ad eum.
 social_profiles:
-  facebook:
-    url: https://www.facebook.com/matt
-  github:
-    url: https://github.com/coopermayne
+  instagram:
+    url: https://www.instagram.com/monkeymoan/
 favicon_meta_tags:
 - tag_name: meta
   attributes:
     name: application-name
     content: matt-steves-profile
-email: mattsemail@address.com
-phone_number: 123.123.1234
+email: goformatter@gmail.com
+phone_number: 917.946.3832
 address: Los Angeles, CA
-header: Matt Stevens
+header: Matthew Stevens
 subheader: Location Manager & Scout
