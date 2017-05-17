@@ -34,6 +34,9 @@ title: contact
 				{% if site.data.settings.social_profiles.instagram %}
 				<li><a href="{{ site.data.settings.social_profiles.instagram.url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 				{% endif %}
+				{% if site.data.settings.social_profiles.imdb %}
+				<li><a href="{{ site.data.settings.social_profiles.imdb.url }}" class="icon fa-imdb" target="_blank"><span class="label">Imdb</span></a></li>
+				{% endif %}
 				{% if site.data.settings.social_profiles.pinterest %}
 				<li><a href="{{ site.data.settings.social_profiles.pinterest.url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
 				{% endif %}
