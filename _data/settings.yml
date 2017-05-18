@@ -3,6 +3,8 @@ description: Matthew Stevens is a location manager and scout in the Los Angeles 
 social_profiles:
   instagram:
     url: https://www.instagram.com/monkeymoan/
+  imdb:
+    url: http://www.imdb.com/name/nm0994493
 favicon_meta_tags:
 - tag_name: meta
   attributes:
